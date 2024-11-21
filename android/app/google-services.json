@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "792537696551",
+    "project_id": "cstore-d4fcb",
+    "storage_bucket": "cstore-d4fcb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792537696551:android:495b69d4de3fbc7dad4102",
+        "android_client_info": {
+          "package_name": "com.ahmed.cstore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGbMLZF0h7_5s_N-2IX-zCZG3ue8aYQvs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

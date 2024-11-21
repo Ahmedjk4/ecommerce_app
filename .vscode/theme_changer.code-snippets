@@ -1,0 +1,23 @@
+{
+	// Place your chat_app workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	"Changes Color Based On Theme": {
+		"scope": "dart",
+		"prefix": "tc",
+		"body": [
+			"context.select<ChangeThemeCubit, Color>((cubit) => cubit.state is LightMode ? Colors.white : Colors.black,),"
+		],
+		"description": "Changes Color Based On Theme"
+	},
+	"Red Log": {
+		"scope": "dart",
+		"prefix": "redlog",
+		"body": "\\u001b[31m",
+		"description": "Changes Color Based On Theme"
+	}
+}
